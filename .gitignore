@@ -1,0 +1,104 @@
+# ============================================
+# ANDROID GITIGNORE - Weather App
+# ============================================
+
+# ===== FICHIERS SENSIBLES =====
+# Clé API et configurations locales
+local.properties
+*.properties.local
+
+# ===== GRADLE =====
+.gradle/
+/local.properties
+.gradle
+build/
+*/build/
+**/build/
+
+# ===== IDE (Android Studio / IntelliJ) =====
+# Ignorer tout .idea sauf quelques fichiers utiles
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/*.xml
+.idea/*.iml
+
+# Fichiers iml
+*.iml
+*.iws
+*.ipr
+
+# Autres fichiers IDE
+.DS_Store
+
+# ===== FICHIERS DE BUILD =====
+/build
+/captures
+bin/
+gen/
+out/
+.externalNativeBuild
+.cxx
+
+# ===== APK / AAB / BUNDLE =====
+*.apk
+*.ap_
+*.aab
+output.json
+
+# ===== DEX FILES =====
+*.dex
+
+# ===== FICHIERS JAVA =====
+*.class
+*.log
+
+# ===== FICHIERS TEMPORAIRES =====
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ===== LOGS =====
+*.log
+logs/
+*.log.*
+
+# ===== KEYSTORE FILES =====
+# IMPORTANT: Ne JAMAIS committer les keystores
+*.jks
+*.keystore
+key.properties
+
+# ===== NDK =====
+obj/
+.externalNativeBuild/
+
+# ===== ANDROID PROFILING =====
+*.hprof
+
+# ===== FICHIERS OSM/MAP =====
+map
+*.osm
+*.osm.xml
+
+# ===== RELEASE / DISTRIBUTION =====
+release/
+proguard/
+mapping.txt
+
+# ===== AUTRES =====
+/captures
+capture/

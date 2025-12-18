@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">weatherApp</string>
+    <string name="mon_bouton">search</string>
+</resources>

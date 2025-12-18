@@ -1,0 +1,11 @@
+## This file is an EXAMPLE - copy it to local.properties and add your own values
+# 
+# DO NOT commit local.properties to Git!
+#
+# Location of the SDK. This is only used by Gradle.
+sdk.dir=/path/to/your/Android/Sdk
+
+# OpenWeatherMap API Key
+# Get your API key from: https://openweathermap.org/api
+OPENWEATHER_API_KEY=your_api_key_here
+
